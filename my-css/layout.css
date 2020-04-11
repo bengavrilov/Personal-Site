@@ -212,3 +212,9 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
+
+.hoverimage:hover {
+    -moz-box-shadow: 0 0 8px #ccc;
+    -webkit-box-shadow: 0 0 8px #ccc;
+    box-shadow: 0 0 8px #ccc;
+}
