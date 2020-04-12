@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="my-css/layout.css">
     <link rel="stylesheet" href="my-css/media-queries.css">
     <link rel="stylesheet" href="my-css/magnific-popup.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <script src="modernizr.js"></script>
   </head>
   <body>
       <header id="home" style="height: 1250px;">
@@ -248,6 +252,28 @@
                             <img class="fa fa-briefcase" src="my-css/images/briefcase3.png" style="-webkit-filter: invert(100%)";>
                           </div>
                           <div class="timeline-header">
+                              <h3 style="font-weight: bold;">Programming/Mathematics Tutor</h3>
+                              <p>May 2018 - July 2018</p>
+                          </div>
+                          <div class="timeline-content">
+                              <h4 style="font-weight: bold;">Tutor Doctor</h4>
+                              <ul style="list-style-type: circle;">
+                                <li>
+                                    Taught secondary school and first year university students development logistics
+                                    using Java and Python environments
+                                </li>
+                                <li>
+                                    Utilized varying individualized teching techniques to target each students' unique learning
+                                    style
+                                </li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="timeline-block">
+                          <div class="timeline-ico">
+                            <img class="fa fa-briefcase" src="my-css/images/briefcase3.png" style="-webkit-filter: invert(100%)";>
+                          </div>
+                          <div class="timeline-header">
                               <h3 style="font-weight: bold;">Data Analyst</h3>
                               <p>September 2014 - November 2014</p>
                           </div>
@@ -310,48 +336,44 @@
               </div>
           </div>
       </section>
-      <section id="portfolio">
+      <section id="contact">
           <div class="row section-intro">
               <div class="col-twelve">
-                  <h5>Projects</h5>
-                  <h1>My creations.</h1>
+                  <h5>Contact</h5>
+                  <h1 style="font-weight: bold;">I'd love to connect with you.</h1>
+                  <p class="lead">Let me get to know more about you.</p>
               </div>
           </div>
-          <div class="row">
-              <div class="twelve columns collapsed">
-                  <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
-                      <div class="columns portfolio-item">
-                          <div class="item-wrap">
-                              <a href="#modal-01" title>
-                                  <img alt src="my-css/images/website.png">
-                                  <div class="overlay">
-                                      <div class="portfolio-item-meta">
-                                          <h5>Ben's Website</h5>
-                                          <p>Personal Site</p>
-                                      </div>
-                                  </div>
-                                  <div class="link-icon">
-                                      <img class="icon-plus" src="my-css/images/plus.png" style="-webkit-filter: invert(100%)";>
-                                  </div>
-                              </a>
-                          </div>
-                      </div>
+          <div class="row contact-info">
+              <div class="col-four tab-full">
+                  <div class="icon">
+                      <img class="fa fa-location-arrow" src="my-css/images/location.png" style="-webkit-filter: invert(100%)";>
                   </div>
+                  <h5>Where to find me</h5>
+                  <p>
+                      27 King's College Cir
+                      <br>
+                      Toronto, ON
+                      <br>
+                      M5S Canada
+                  </p>
               </div>
-              <div id="modal-01" class="popup-modal mfp-hide">
-                  <img class="scale-with-grid" src="my-css/images/website.png" alt>
-                  <div class="description-box">
-                      <h4>Ben's Website</h4>
-                      <p>My website intedned to showcase my HTML5/CSS/JS skills</p>
-                      <span class="categories">
-                          <img class="fa fa-tag" src="my-css/images/tag.png">
-                          HTML5, CSS, JS, BootStrap
-                      </span>
+              <div class="col-four tab-full">
+                  <div class="icon">
+                      <img class="icon-mail" src="my-css/images/contactmail.png">
                   </div>
-                  <div class="link-box">
-                      <a href="#home" target="_blank">Details</a>
-                      <a class="popup-modal-dismiss">Close</a>
+                  <h5>Email Me At</h5>
+                  <p>
+                      ben.gavrilov@mail.utoronto.ca
+                      <br>
+                  </p>
+              </div>
+              <div class="col-four tab-full">
+                  <div class="icon">
+                      <img class="fa fa-linkedin" src="my-css/images/contactli.png">
                   </div>
+                  <h5>Let's Connect</h5>
+                  <a href="https://www.linkedin.com/in/ben-gavrilov/" target="_blank">LinkedIn Profile</a>
               </div>
           </div>
       </section>
