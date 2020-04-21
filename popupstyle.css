@@ -1,0 +1,114 @@
+/* Richard's modal demo */
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 200ms ease-in-out;
+}
+
+.bg2-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 200ms ease-in-out;
+}
+
+.bg3-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 200ms ease-in-out;
+}
+
+.bg4-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 200ms ease-in-out;
+}
+
+.modal-content {
+    width: 700px;
+    height: 900px;
+    background-color: white;
+    border-radius: 25px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.modal-content h1 {
+    text-align: center;
+    margin-top: 20px;
+    font: 'opensans-bold', sans-serif;
+}
+
+.modal-content h2 {
+    margin-left: 10px;
+}
+
+.modal-content p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close2 {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close3 {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close4 {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}

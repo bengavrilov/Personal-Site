@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="my-css/layout.css">
     <link rel="stylesheet" href="my-css/media-queries.css">
     <link rel="stylesheet" href="my-css/magnific-popup.css">
+    <link rel="stylesheet" href="my-css/education.css">
+    <link rel="stylesheet" href="my-css/courses.css">
+    <link rel="stylesheet" href="popupstyle.css">
+    <script defer src="popupscript.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -346,13 +350,39 @@
           </div>
       </section>
       <section id="school">
-          <div class="row section-intro">
-              <div class="col-twelve">
+          <div class="row section-intro schoolTitle">
+              <div class="col-twelve schoolTitle">
                   <h5>School</h5>
-                  <h1>Under Construction!</h1>
+                  <!-- <h1>Under Construction!</h1> -->
               </div>
           </div>
+          <div class="education">
+            <div class="educationText">
+                <img class="uoftlogo" src="my-css/images/uoftlogo2.png">
+                <p style="font-size: 22px; color: rgb(0, 0, 0); margin-bottom: 1%; margin-top: 1%;">4th year • May 2020</p>
+            </div>
+            <div class="educationContainer">
+                <p><a style="font-weight: bold; border-style: none;">BSc in Computer Science, Mathematics, & Statistics</a><br>Software Engineering Specialization<br>Statistics Minor</p>
+            </div>
+          </div>
+          <div class="courses">
+            <div class="coursesContainer">
+                <button class="courseBtn" id="fyc" variant="primary">
+                    1st Year Courses
+                </button>
+                <button class="courseBtn" id="syc" variant="primary">
+                    2nd Year Courses
+                </button>
+                <button class="courseBtn" id="tyc" variant="primary">
+                    3rd Year Courses
+                </button>
+                <button class="courseBtn" id="4yc" variant="primary">
+                    4th Year Courses
+                </button>
+            </div>
+          </div>
       </section>
+      
       <section id="contact">
           <div class="row section-intro">
               <div class="col-twelve">
@@ -410,6 +440,134 @@
               </div>
           </div>
       </footer>
+      <!--
+      <div class="modal" id="firstcourses">
+        <div class="modal-header">
+            <div class="title">Example Modal</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum eius nulla expedita fugiat minus non neque, recusandae optio quod illo, magnam maxime reprehenderit ipsa asperiores exercitationem? Accusamus tenetur deleniti delectus quaerat quod odit, quos eveniet enim quibusdam minus maiores ipsum animi. Eius totam rerum doloremque eligendi tempore provident aliquam, pariatur odio porro ea ducimus maiores perspiciatis! Non laborum distinctio earum veniam id doloribus tenetur, aliquid nihil laboriosam. Omnis magnam enim odio dignissimos voluptate hic facilis nam itaque impedit. Maxime, numquam?
+        </div>
+    </div>
+    <div id="overlay"></div>
+    -->
+    <!--Richard's modal module-->
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">+</div>
+            <h1>1st Year Courses</h1>
+            <hr>
+            <h2><u>CSCA08: Introduction to Computer Science I</u></h2>
+            <p>Programming in an object-oriented language such as Python. Program structure: elementary data types, statements, control flow, functions, classes, objects, methods. Lists; searching, sorting and complexity.  
+                This course is intended for students having a serious interest in higher level computer science courses, or planning to complete a computer science program.</p>
+            <h2><u>CSCA48: Introduction to Computer Science II</u></h2>
+            <p>Abstract data types and data structures for implementing them. Linked data structures. Object Oriented Programming. Encapsulation and information-hiding. Testing. Specifications. Analyzing the efficiency of programs. Recursion.</p>
+            <h2><u>CSCA67: Discrete Mathematics</u></h2>
+            <p>Introduction to discrete mathematics: Elementary combinatorics; discrete probability including conditional probability and independence; graph theory including trees, planar graphs, searches and traversals, colouring. The course emphasizes
+                 topics of relevance to computer science, and exercises problem-solving skills and proof techniques such as well ordering, induction, contradiction, and counterexample.</p>
+            <h2><u>MATA22: Linear Algebra I for Mathematical Sciences</u></h2>    
+            <p>A conceptual and rigorous approach to introductory linear algebra that focuses on mathematical proofs, the logical development of fundamental structures, and essential computational techniques. This course covers complex numbers, vectors in 
+                Euclidean n-space, systems of linear equations, matrices and matrix algebra, Gaussian reduction, structure theorems for solutions of linear systems, dependence and independence, rank equation, linear transformations of Euclidean n-space, 
+                determinants, Cramer's rule, eigenvalues and eigenvectors, characteristic polynomial, and diagonalization.</p>
+            <h2><u>MATA31: Calculus I for Mathematical Sciences</u></h2>
+            <p>A conceptual introduction to Differential Calculus of algebraic and transcendental functions of one variable; focus on logical reasoning and fundamental notions; first introduction into a rigorous mathematical theory with applications. Course 
+                covers: real numbers, set operations, supremum, infimum, limits, continuity, Intermediate Value Theorem, derivative, differentiability, related rates, Fermat's, Extreme Value, Rolle's and Mean Value Theorems, curve sketching, optimization, and antiderivatives.</p>
+            <h2><u>MATA37: Calculus II for Mathematical Sciences</u></h2>
+            <p>A rigorous introduction to Integral Calculus of one variable and infinite series; strong emphasis on combining theory and applications; further developing of tools for mathematical analysis. Riemann Sum, definite integral, Fundamental Theorem of Calculus, techniques of
+                 integration, improper integrals, numerical integration, sequences and series, absolute and conditional convergence of series, convergence tests for series, Taylor polynomials and series, power series and applications.</p>
+        </div>
+    </div>
+    <div class="bg2-modal">
+        <div class="modal-content">
+            <div class="close2">+</div>
+            <h1>2nd Year Courses</h1>
+            <hr>
+            <h2><u>CSCB07: Software Design</u></h2>
+            <p>An introduction to software design and development concepts, methods, and tools, using a statically-typed object-oriented language such as Java. Topics from: version control, build management, unit testing, refactoring, object oriented design and development, design 
+                patterns and advanced IDE usage.</p>
+            <h2><u>CSCB09: Software Tools and Systems Programming</u></h2>
+            <p>Software techniques in a Unix-style environment, using scripting languages and a machine-oriented programming language (typically C). What goes on in the system when programs are executed. Core topics: creating and using software tools, pipes and filters, file processing, 
+                shell programming, processes, system calls, signals, basic network programming.</p>
+            <h2><u>CSCB36: Introduction to the Theory of Computation</u></h2>
+            <p>Mathematical induction with emphasis on applications relevant to computer science. Aspects of mathematical logic, correctness proofs for iterative and recursive algorithms, solutions of linear and divide-and-conquer recurrences, introduction to automata and formal languages.</p>
+            <h2><u>CSCB58: Computer Organization</u></h2>
+            <p>Principles of the design and operation of digital computers. Binary data representation and manipulation, Boolean logic, components of computer systems, memory technology, peripherals, structure of a CPU, assembly languages, instruction execution, and addressing techniques. 
+                There are a number of laboratory periods in which students conduct experiments with digital logic circuits.</p>
+            <h2><u>CSCB63: Design and Analysis of Data Structures</u></h2>
+            <p>Design, analysis, implementation and comparison of efficient data structures for common abstract data types. Priority queues: heaps and mergeable heaps. Dictionaries: balanced binary search trees, B-trees, hashing. Amortization: data structures for managing dynamic tables 
+                and disjoint sets. Data structures for representing graphs. Graph searches.</p>
+            <h2><u>MATB24: Linear Algebra II</u></h2>
+            <p>Fields, vector spaces over a field, linear transformations; inner product spaces, coordinatization and change of basis; diagonalizability, orthogonal transformations, invariant subspaces, Cayley-Hamilton theorem; hermitian inner product, normal, self-adjoint and unitary operations. 
+                Some applications such as the method of least squares and introduction to coding theory.</p>
+            <h2><u>STAB52: An Introduction to Probability</u></h2>
+            <p>A mathematical treatment of probability. The topics covered include: the probability model, density and distribution functions, computer generation of random variables, conditional probability, expectation, sampling distributions, weak law of large numbers, central limit theorem, 
+                Monte Carlo methods, Markov chains, Poisson processes, simulation, applications. A computer package will be used.</p>
+            <h2><u>STAB57: An Introduction to Statistics</u></h2>
+            <p>A mathematical treatment of the theory of statistics. The topics covered include: the statistical model, data collection, descriptive statistics, estimation, confidence intervals and P-values, likelihood inference methods, distribution-free methods, bootstrapping, Bayesian methods, 
+                relationship among variables, contingency tables, regression, ANOVA, logistic regression, applications. A computer package will be used.</p>
+        </div>
+    </div>
+    <div class="bg3-modal">
+        <div class="modal-content">
+            <div class="close3">+</div>
+            <h1>3rd Year Courses</h1>
+            <hr>
+            <h2><u>MATB41: Techniques of the Calculus of Several Variables I</u></h2>
+            <p>Partial derivatives, gradient, tangent plane, Jacobian matrix and chain rule, Taylor series; extremal problems, extremal problems with constraints and Lagrange multipliers, multiple integrals, spherical and cylindrical coordinates, law of transformation of variables.</p>
+            <h2><u>MATB42: Techniques of the Calculus of Several Variables II</u></h2>
+            <p>Fourier series. Vector fields in Rn, Divergence and curl, curves, parametric representation of curves, path and line integrals, surfaces, parametric representations of surfaces, surface integrals. Green's, Gauss', and Stokes' theorems will also be covered. 
+                An introduction to differential forms, total derivative.</p>
+            <h2><u>CSCC43: Introduction to Databases</u></h2>
+            <p>Introduction to database management systems. The relational data model. Relational algebra. Querying and updating databases: the SQL query language. Application programming with SQL. Integrity constraints, normal forms, and database design. Elements of database system technology:
+                 query processing, transaction management.</p>
+            <h2><u>CSCC69: Operating Systems</u></h2>
+            <p>Principles of operating systems. The operating system as a control program and as a resource allocator. The concept of a process and concurrency problem: synchronization, mutual exclusion, deadlock. Additional topics include memory management, file systems, 
+                process scheduling, threads, and protection.</p>
+            <h2><u>CSCC73: Algorithm Design and Analysis</u></h2>
+            <p>Standard algorithm design techniques: divide-and-conquer, greedy strategies, dynamic programming, linear programming, randomization, and possibly others.</p>
+            <h2><u>CSCC01: Introduction to Software Engineering</u></h2>
+            <p>Introduction to software development methodologies with an emphasis on agile development methods appropriate for rapidly-moving projects. Basic software development infrastructure; requirements elicitation and tracking; prototyping; basic project management; basic UML; 
+                introduction to software architecture; design patterns; testing.</p>
+            <h2><u>CSCC24: Principles of Programming Languages</u></h2>
+            <p>Major topics in the design, definition, analysis, and implementation of modern programming languages. Study of programming paradigms: procedural (e.g., C, Java, Python), functional (e.g., Scheme, ML, Haskell) and logic programming (e.g., Prolog, Mercury).</p>
+            <h2><u>CSCC37: Introduction to Numerical Algorithms for Computational Mathematics</u></h2>
+            <p>An introduction to computational methods for solving problems in linear algebra, non-linear equations, approximation and integration. Floating-point arithmetic; numerical algorithms; application of numerical software packages.</p>
+            <h2><u>CSCC63: Computability and Computational Complexity</u></h2>
+            <p>Introduction to the theory of computability: Turing machines, Church's thesis, computable and non-computable functions, recursive and recursively enumerable sets, reducibility. Introduction to complexity theory: models of computation, P, NP, polynomial time reducibility, 
+                NP-completeness, further topics in complexity theory.</p>
+        </div>
+    </div>
+    <div class="bg4-modal">
+        <div class="modal-content">
+            <div class="close4">+</div>
+            <h1>4th Year Courses</h1>
+            <hr>
+            <h2><u>STAC67: Regression Analysis</u></h2>
+            <p>Orthogonal projections. Univariate normal distribution theory. The linear model and its statistical analysis, residual analysis, influence analysis, collinearity analysis, model selection procedures. Analysis of designs. Random effects. Models for categorical data. Nonlinear models.
+                 Instruction in the use of SAS.</p>
+            <h2><u>STAC62: Stochastic Processes</u></h2>
+            <p>This course continues the development of probability theory begun in STAB52H3. Topics covered include finite dimensional distributions and the existence theorem, discrete time Markov chains, discrete time martingales, the multivariate normal distribution, Gaussian processes
+                 and Brownian motion.</p>
+            <h2><u>STAD37: Multivariate Analysis</u></h2>
+            <p>Linear algebra for statistics. Multivariate distributions, the multivariate normal and some associated distribution theory. Multivariate regression analysis. Canonical correlation analysis. Principal components analysis. Factor analysis. Cluster and discriminant analysis. 
+                Multidimensional scaling. Instruction in the use of SAS.</p>
+            <h2><u>CSCD03: Social Impact of Information Technology</u></h2>
+            <p>The trade-offs between benefits and risks to society of information systems, and related issues in ethics and public policy. Topics will include safety-critical software; invasion of privacy; computer-based crime; the social effects of an always-online life; and professional ethics 
+                in the software industry. There will be an emphasis on current events relating to these topics.</p>
+            <h2><u>CSCD01: Engineering Large Software Systems</u></h2>
+            <p>An introduction to the theory and practice of large-scale software system design, development, and deployment. Project management; advanced UML; requirements engineering; verification and validation; software architecture; performance modeling and analysis; formal methods in software engineering.</p>
+            <h2><u>CSCC11: Introduction to Machine Learning and Data Mining</u></h2>
+            <p>An introduction to methods for automated learning of relationships on the basis of empirical data. Classification and regression using nearest neighbour methods, decision trees, linear and non-linear models, class-conditional models, neural networks, and Bayesian methods. Clustering algorithms and 
+                dimensionality reduction. Model selection. Problems of over-fitting and assessing accuracy. Problems with handling large databases.</p>
+            <h2><u>CSCC46: Social and Information Networks</u></h2>
+            <p>How networks underlie the social, technological, and natural worlds, with an emphasis on developing intuitions for broadly applicable concepts in network analysis. Topics include: introductions to graph theory, network concepts, and game theory; social networks; information networks; the aggregate 
+                behaviour of markets and crowds; network dynamics; information diffusion; popular concepts such as "six degrees of separation", the "friendship paradox", and the "wisdom of crowds".</p>
+            <h2><u>CSCD84: Artificial Intelligence</u></h2>
+            <p>A study of the theories and algorithms of Artificial Intelligence. Topics include a subset of: search, game playing, logical representations and reasoning, planning, natural language processing, reasoning and decision making with uncertainty, computational perception, robotics, and applications of 
+                Artificial Intelligence. Assignments provide practical experience of the core topics.</p>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
