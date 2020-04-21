@@ -112,3 +112,21 @@
     transform: rotate(45deg);
     cursor: pointer;
 }
+
+@media only screen and (max-width:480px) {
+    .close {
+        top: 15px;
+    }
+
+    .close2 {
+        top: 15px;
+    }
+
+    .close3 {
+        top: 15px;
+    }
+
+    .close4 {
+        top: 15px;
+    }
+}

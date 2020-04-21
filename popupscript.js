@@ -29,3 +29,4 @@ document.querySelector('.close3').addEventListener('click', function () {
 document.querySelector('.close4').addEventListener('click', function () {
     document.querySelector('.bg4-modal').setAttribute("style", "display: none;");
 });
+
