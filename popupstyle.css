@@ -113,7 +113,18 @@
     cursor: pointer;
 }
 
+@media only screen and (max-height: 1000px) {
+    .modal-content {
+        width: 720px;
+        height: 480px;
+    }
+}
+
 @media only screen and (max-width:480px) {
+    .modal-content {
+        width: 350px;
+        height: 600px;
+    }
     .close {
         top: 15px;
     }
@@ -131,9 +142,3 @@
     }
 }
 
-@media only screen and (max-height: 1000px) and (min-width: 481px) {
-    .modal-content {
-        width: 720px;
-        height: 480px;
-    }
-}
