@@ -1,0 +1,98 @@
+.activity{
+    flex: 0 0 33.33%;                     
+    background-color: #fff;
+    position: relative;
+    z-index: 500;
+}
+
+
+.activityBlock{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+.activityTitle{
+  color: white;
+  font-size: 30px;
+  font-family: 'Raleway';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: none;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 100;
+}
+
+body.modal-open{
+    overflow: scroll !important;
+    padding-right: 0 !important;
+}
+
+.activityOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.activity:hover .activityOverlay {
+    opacity: 1;
+}
+
+.activity:hover .activityTitle {
+    display: inline-block;
+    opacity: 1;
+}
+
+.modal-title{
+    margin: 0 20px;
+}
+
+.projectDescription{
+    width: 75%;
+    margin: auto;
+}
+
+.modal-open .modal{
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.modal-open .modal::-webkit-scrollbar { 
+    display: none; 
+}
+
+@media screen and (max-width: 992px) {
+    .activity{
+        flex: 0 0 50%;   
+    }
+
+    .projectDescription{
+        width: 80%
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .extraTitle{
+        font-size: 30px;
+    }
+    .activity{
+        flex: 0 0 100%;   
+    }
+
+    .projectDescription{
+        width: 90%;
+    }
+}

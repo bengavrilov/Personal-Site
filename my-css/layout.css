@@ -111,7 +111,7 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 25px/1.9em 'librebaskerville-regular', serif;
+   font: 25px/1.9em 'librebaskerville-regular', Verdana;
    color: #A8A8A8;
    margin: 0 auto;
    width: 70%;
@@ -577,13 +577,31 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-    background: #ebeeee;
-    padding-top: 90px;
+    /*background: #ebeeee;*/
+    background: #262626;
+    padding-top: 0px;
     padding-bottom: 60px;
  }
  #portfolio h1 {
     color: black;
  }
+
+ #particles-js {
+   width: 100%;
+   height: 100%;
+   z-index: 0;
+   background-size: cover;
+   position: absolute;
+ }
+
+ #portfolio .col-twelve {
+   z-index: 1;
+ }
+
+ #portfolio .col-twelve h5 {
+   padding-top: 90px;
+ }
+
 
  /* ------------------------------------------------------------------ */
 /* e. School Section
