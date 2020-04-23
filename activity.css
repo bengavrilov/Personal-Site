@@ -28,11 +28,6 @@
   z-index: 90;
 }
 
-body.modal-open{
-    overflow: scroll !important;
-    padding-right: 0 !important;
-}
-
 .activityOverlay {
     position: absolute;
     top: 0;
@@ -55,22 +50,9 @@ body.modal-open{
     opacity: 1;
 }
 
-.modal-title{
-    margin: 0 20px;
-}
-
 .projectDescription{
     width: 75%;
     margin: auto;
-}
-
-.modal-open .modal{
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
-}
-
-.modal-open .modal::-webkit-scrollbar { 
-    display: none; 
 }
 
 @media screen and (max-width: 1264px) {
