@@ -359,7 +359,7 @@
                <div class="projectSubtitle">Image Manipulation</div>
                <div class="projectGrid">
                    <div class="activity">
-                       <div class="activityBlock" variant="primary" style="background-image: url(my-css/images/ris2.png);">
+                       <div class="activityBlock" id="ris-id" variant="primary" style="background-image: url(my-css/images/ris2.png);">
                             <div class="activityTitle">Reverse Image Search</div>
                        </div>
                        <div class="activityOverlay"></div>
@@ -600,6 +600,25 @@
             <h2><u>CSCD84: Artificial Intelligence</u></h2>
             <p>A study of the theories and algorithms of Artificial Intelligence. Topics include a subset of: search, game playing, logical representations and reasoning, planning, natural language processing, reasoning and decision making with uncertainty, computational perception, robotics, and applications of 
                 Artificial Intelligence. Assignments provide practical experience of the core topics.</p>
+        </div>
+    </div>
+    <div class="pg-modal">
+        <div class="pmodal-content">
+            <div class="pclose">+</div>
+            <h1>Reverse Image Search</h1>
+            <hr>
+            <h5>&emsp; &emsp;Nowadays most search engines provide some support for image retrieval, which allows you, for example, to search the web for images that are similar to a given image. 
+                If a search engine used a single process to search a large number of images to find the most similar one it would take a very long time to get the results. This project
+                allows users to input an image file and a directory (think of this as the global dataset) to search for the most similar image. The user can then choose to either perform
+                the search using a single process or to use a parallel version that forks new processes and manages communication through various pipes. In reality, determining how similar
+                two images are is a complex problem, which is in fact an active area of research. The project uses a simple metric based on the Euclidean distance between two pixels of 
+                different images. The purpose of this project was to demonstrate drastic performance differences between delegating a task to a single process vs a parallel process.
+            </h5>
+            <div class="slideshow">
+                <script type="text/javascript" src="ris-slideshow.js"></script>
+                <img name="slide">
+            </div>
+            <div class="gitlink"><h2><a href="https://github.com/bengavrilov/Reverse-Image-Search" target="_blank">Github Link</a></h2></div>
         </div>
     </div>
 

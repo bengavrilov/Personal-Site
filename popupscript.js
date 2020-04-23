@@ -1,3 +1,15 @@
+
+// Projects Section
+document.getElementById('ris-id').addEventListener('click', function() {
+    document.querySelector('.pg-modal').setAttribute("style", "display: flex;");
+});
+
+document.querySelector('.pclose').addEventListener('click', function () {
+    document.querySelector('.pg-modal').setAttribute("style", "display: none;");
+});
+
+// School Section
+
 document.getElementById('fyc').addEventListener('click', function() {
     document.querySelector('.bg-modal').setAttribute("style", "display: flex;");
 });
