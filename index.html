@@ -365,7 +365,7 @@
                        <div class="activityOverlay"></div>
                    </div>
                    <div class="activity">
-                       <div class="activityBlock" variant="primary" style="background-image: url(my-css/images/idb2.png);">
+                       <div class="activityBlock" id="idb-id" variant="primary" style="background-image: url(my-css/images/idb2.png);">
                             <div class="activityTitle">Image Database</div>
                        </div>
                        <div class="activityOverlay"></div>
@@ -607,7 +607,7 @@
             <div class="pclose">+</div>
             <h1>Reverse Image Search</h1>
             <hr>
-            <h5>&emsp; &emsp;Nowadays most search engines provide some support for image retrieval, which allows you, for example, to search the web for images that are similar to a given image. 
+            <h5>&emsp; &emsp; Nowadays most search engines provide some support for image retrieval, which allows you, for example, to search the web for images that are similar to a given image. 
                 If a search engine used a single process to search a large number of images to find the most similar one it would take a very long time to get the results. This project
                 allows users to input an image file and a directory (think of this as the global dataset) to search for the most similar image. The user can then choose to either perform
                 the search using a single process or to use a parallel version that forks new processes and manages communication through various pipes. In reality, determining how similar
@@ -619,6 +619,24 @@
                 <img name="slide">
             </div>
             <div class="gitlink"><h2><a href="https://github.com/bengavrilov/Reverse-Image-Search" target="_blank">Github Link</a></h2></div>
+        </div>
+    </div>
+    <div class="pg2-modal">
+        <div class="pmodal-content">
+            <div class="pclose2">+</div>
+            <h1>Image Database (for querying)</h1>
+            <hr>
+            <h5>&emsp; &emsp; It is important to ease data access so that logs and reports can be completed more effectively. This project consists of an image database that allows for storage
+                and querying of different image files. When entering an image a user must select some attributes associated with the image. These attributes are then used to query. When querying
+                a user must select an array of attributes and the query will return all images with all the given attributes. The user can also perform removal queries where images with the given
+                attributes are deleted. The project also allows for a print command which prints all of the current images in the database. Keep in mind that when querying, images are returned in
+                order of insertion, that is the most recently added images in that query will appear last.
+            </h5>
+            <div class="slideshow">
+                <script type="text/javascript" src="idb-slideshow.js"></script>
+                <img name="slide2">
+            </div>
+            <div class="gitlink"><h2><a href="https://github.com/bengavrilov/Image-Database" target="_blank">Github Link</a></h2></div>
         </div>
     </div>
 

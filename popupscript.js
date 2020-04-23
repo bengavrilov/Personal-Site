@@ -8,6 +8,14 @@ document.querySelector('.pclose').addEventListener('click', function () {
     document.querySelector('.pg-modal').setAttribute("style", "display: none;");
 });
 
+document.getElementById('idb-id').addEventListener('click', function() {
+    document.querySelector('.pg2-modal').setAttribute("style", "display: flex;");
+});
+
+document.querySelector('.pclose2').addEventListener('click', function () {
+    document.querySelector('.pg2-modal').setAttribute("style", "display: none;");
+});
+
 // School Section
 
 document.getElementById('fyc').addEventListener('click', function() {
