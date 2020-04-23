@@ -99,6 +99,7 @@ body.modal-open{
     }
     .activity{
         flex: 0 0 100%;   
+        flex-direction: column;
     }
 
     .projectDescription{
