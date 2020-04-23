@@ -73,6 +73,12 @@ body.modal-open{
     display: none; 
 }
 
+@media screen and (max-width: 1264px) {
+    #particles-js {
+        height: 1271px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .activity{
         flex: 0 0 50%;   
