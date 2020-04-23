@@ -1,12 +1,12 @@
 .activity{
     flex: 0 0 33.33%;                     
-    background-color: #fff;
+    background-color: white;
     position: relative;
 }
 
 
 .activityBlock{
-    height: 200px;
+    height: 205px;
     background-size: cover;
     background-position: center;
     width: 100%;
