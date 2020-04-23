@@ -81,6 +81,10 @@ body.modal-open{
     .projectDescription{
         width: 80%
     }
+
+    #particles-js {
+        height: 1472px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -93,5 +97,9 @@ body.modal-open{
 
     .projectDescription{
         width: 90%;
+    }
+
+    #particles-js {
+        height: 1654px;
     }
 }
