@@ -12,7 +12,6 @@
     font-size: 35px;
     font-weight: 550;
     margin: 40px auto;
-    z-index: 1;
 }
 .projectGrid{
     width:60%;
@@ -23,7 +22,6 @@
     position: relative;
     padding: 0em;
     box-sizing: border-box;
-    z-index: 1;
 }
 
 .projectLink{
