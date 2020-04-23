@@ -22,6 +22,8 @@
 
     <script defer src="popupscript.js"></script>
     <script src="particles.js"></script>
+    <script type="text/javascript" src="ris-slideshow.js"></script>
+    <script type="text/javascript" src="idb-slideshow.js"></script>
     
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -371,7 +373,7 @@
                        <div class="activityOverlay"></div>
                    </div>
                    <div class="activity">
-                        <div class="activityBlock" variant="primary" style="background-image: url(my-css/images/fim2.jpg);">
+                        <div class="activityBlock" id="fim-id" variant="primary" style="background-image: url(my-css/images/fim2.jpg);">
                             <div class="activityTitle">Image Filters</div>
                         </div>
                         <div class="activityOverlay"></div>
@@ -380,7 +382,7 @@
                <div class="projectSubtitle">Compression</div>
                <div class="projectGrid">
                    <div class="activity">
-                        <div class="activityBlock" variant="primary" style="background-image: url(my-css/images/txtcomp2.png);">
+                        <div class="activityBlock" id="txtcomp-id" variant="primary" style="background-image: url(my-css/images/txtcomp2.png);">
                             <div class="activityTitle">Text Compression</div>
                         </div>
                         <div class="activityOverlay"></div>
@@ -389,7 +391,7 @@
                <div class="projectSubtitle">Web Development</div>
                <div class="projectGrid">
                    <div class="activity">
-                        <div class="activityBlock" variant="primary" style="background-image: url(my-css/images/mountains.jpg);">
+                        <div class="activityBlock" id="site-id" variant="primary" style="background-image: url(my-css/images/mountains.jpg);">
                             <div class="activityTitle">Ben's Personal Site</div>
                         </div>
                         <div class="activityOverlay"></div>
@@ -615,7 +617,6 @@
                 different images. The purpose of this project was to demonstrate drastic performance differences between delegating a task to a single process vs a parallel process.
             </h5>
             <div class="slideshow">
-                <script type="text/javascript" src="ris-slideshow.js"></script>
                 <img name="slide">
             </div>
             <div class="gitlink"><h2><a href="https://github.com/bengavrilov/Reverse-Image-Search" target="_blank">Github Link</a></h2></div>
@@ -633,10 +634,68 @@
                 order of insertion, that is the most recently added images in that query will appear last.
             </h5>
             <div class="slideshow">
-                <script type="text/javascript" src="idb-slideshow.js"></script>
                 <img name="slide2">
             </div>
             <div class="gitlink"><h2><a href="https://github.com/bengavrilov/Image-Database" target="_blank">Github Link</a></h2></div>
+        </div>
+    </div>
+    <div class="pg3-modal">
+        <div class="pmodal-content">
+            <div class="pclose3">+</div>
+            <h1>Image Filters</h1>
+            <hr>
+            <h5>
+                &emsp; &emsp; Image manipulation seems to be a rather popular feature among many image based platforms (I.e, Instagram, Snapchat). Image manipulation can be achieved rather easily by
+                manipulating the rgb colour spectrum. Images are usually represented by dimensions of pixels, and so we can manipulate each individual pixel. Each pixel for a colour image is encoded 
+                by three numbers representing the colour of the pixel. The first number is the red value, the second number is the green value, and the third number is the blue value for that individual
+                pixel. Given this structure we can perform manipulations. For example, suppose we want to make a coloured image black and white. This can be done by averaging the values of all three
+                colour numbers for a pixel and replacing each of those colour numbers with the average. Do this for all pixels and voila!
+            </h5>
+            <div class="slideshow">
+                <img name="slide3">
+            </div>
+            <div class="gitlink"><h2><a href="https://github.com/bengavrilov/Manipulate-Images" target="_blank">Github Link</a></h2></div>
+        </div>
+    </div>
+    <div class="pg4-modal">
+        <div class="pmodal-content">
+            <div class="pclose4">+</div>
+            <h1>Text Compressor</h1>
+            <hr>
+            <h5>
+                &emsp; &emsp; Compression allows for more practical data storage and transport. It is what allows us to access content at a time effective rate. Think about streaming sites, it would take far
+                too long to transmit the actual file size. Instead it is compressed and decompressed upon transmission to save time but more importantly space! This program allows a user to upload a .txt file 
+                and compress it to a form thats on average ~30% smaller in size whilst maintaining its original integrity. Upon usage run the decoder to get the original .txt file. The algorithm uses the huffman coding model to achieve loseless compression. A huffman 
+                 code is a type of prefix code. The algorithm takes all the unique characters in the .txt file and derives a Huffman tree from the estimated probability or frequency of occurrence of each character 
+                  all the common characters. Since we know that a .txt file contains characters and symbols where each character/symbol requires a byte (8 bits) of storage; we can encode this to manipulate file size.
+                   Instead we store each character in its encoded binary representation. The idea is that characters/symbols that appear more frequently in the file will be represented by a binary representation 
+                   smaller than 8 bits in size. Characters that don't appear frequently in the file can take up a greater amount of bits. The net size will always be smaller than the original file.
+            </h5>
+            <div class="slideshow">
+                <img name="slide4">
+            </div>
+            <div class="gitlink"><h2><a href="https://github.com/bengavrilov/text-compression" target="_blank">Github Link</a></h2></div>
+        </div>
+    </div>
+    <div class="pg5-modal">
+        <div class="pmodal-content">
+            <div class="pclose5">+</div>
+            <h1>My Site</h1>
+            <hr>
+            <h5>
+                &emsp; &emsp; I've not only created this personal website to showcase my accomplishments but more to illustrate my web development capabilities. I created this site using: 
+            </h5>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+            </ul>
+            <div class="slideshow">
+                <img name="slide5">
+            </div>
+            <div class="gitlink"><h2><a href="https://bengavrilov.com">Homepage</a></h2></div>
         </div>
     </div>
 

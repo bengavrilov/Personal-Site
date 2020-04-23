@@ -16,6 +16,30 @@ document.querySelector('.pclose2').addEventListener('click', function () {
     document.querySelector('.pg2-modal').setAttribute("style", "display: none;");
 });
 
+document.getElementById('fim-id').addEventListener('click', function() {
+    document.querySelector('.pg3-modal').setAttribute("style", "display: flex;");
+});
+
+document.querySelector('.pclose3').addEventListener('click', function () {
+    document.querySelector('.pg3-modal').setAttribute("style", "display: none;");
+});
+
+document.getElementById('txtcomp-id').addEventListener('click', function() {
+    document.querySelector('.pg4-modal').setAttribute("style", "display: flex;");
+});
+
+document.querySelector('.pclose4').addEventListener('click', function () {
+    document.querySelector('.pg4-modal').setAttribute("style", "display: none;");
+});
+
+document.getElementById('site-id').addEventListener('click', function() {
+    document.querySelector('.pg5-modal').setAttribute("style", "display: flex;");
+});
+
+document.querySelector('.pclose5').addEventListener('click', function () {
+    document.querySelector('.pg5-modal').setAttribute("style", "display: none;");
+});
+
 // School Section
 
 document.getElementById('fyc').addEventListener('click', function() {

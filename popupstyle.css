@@ -25,6 +25,45 @@
     z-index: 91;
 }
 
+.pg3-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 200ms ease-in-out;
+    z-index: 91;
+}
+
+.pg4-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 200ms ease-in-out;
+    z-index: 91;
+}
+
+.pg5-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    position: fixed;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition: 200ms ease-in-out;
+    z-index: 91;
+}
+
 .pmodal-content {
     width: 800px;
     height: 800px;
@@ -46,6 +85,17 @@
     margin-right: 10px;
 }
 
+.pmodal-content ul {
+    margin: 0 auto;
+    font-size: 15;
+    list-style: square;
+    justify-content: center;
+    color: black;
+    display: table;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
 .slideshow {
     width: 400px;
     height: 240px;
@@ -59,6 +109,7 @@
     justify-content: center;
     margin-left: 7em;
     margin-top: 7em;
+    color: rgb(11, 11, 170);
 }
 
 .pclose {
@@ -71,6 +122,33 @@
 }
 
 .pclose2 {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.pclose3 {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.pclose4 {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.pclose5 {
     position: absolute;
     top: 3px;
     right: 5px;
@@ -217,6 +295,22 @@
     }
 
     .pclose {
+        top: 15px;
+    }
+
+    .pclose2 {
+        top: 15px;
+    }
+
+    .pclose3 {
+        top: 15px;
+    }
+
+    .pclose4 {
+        top: 15px;
+    }
+
+    .pclose5 {
         top: 15px;
     }
 
