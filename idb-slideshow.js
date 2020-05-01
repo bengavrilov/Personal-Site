@@ -4,6 +4,7 @@ var images2 = [];
 var images3 = [];
 var images4 = [];
 var images5 = [];
+var images6 = [];
 var time = 4000;
 
 // Image 
@@ -27,6 +28,10 @@ images5[0] = 'my-css/images/site-a-1.png';
 images5[1] = 'my-css/images/site-a-2.png';
 images5[2] = 'my-css/images/site-a-3.png';
 
+images6[0] = 'my-css/images/pfv-a-1.png';
+images6[1] = 'my-css/images/pfv-a-2.gif';
+images6[2] = 'my-css/images/pfv-a-3.png';
+
 // Chance Image
 function changeImg() {
     document.slide.src = images1[i];
@@ -34,6 +39,7 @@ function changeImg() {
     document.slide3.src = images3[i];
     document.slide4.src = images4[i];
     document.slide5.src = images5[i];
+    //document.slide6.src = images6[i];
 
     if (i < images.length - 1) {
         i++;

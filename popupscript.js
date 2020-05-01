@@ -40,6 +40,14 @@ document.querySelector('.pclose5').addEventListener('click', function () {
     document.querySelector('.pg5-modal').setAttribute("style", "display: none;");
 });
 
+document.getElementById('pfv-id').addEventListener('click', function() {
+    document.querySelector('.pg6-modal').setAttribute("style", "display: flex;");
+});
+
+document.querySelector('.pclose6').addEventListener('click', function () {
+    document.querySelector('.pg6-modal').setAttribute("style", "display: none;");
+});
+
 // School Section
 
 document.getElementById('fyc').addEventListener('click', function() {
