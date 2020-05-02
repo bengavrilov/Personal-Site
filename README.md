@@ -10,4 +10,4 @@ I've created this personal website to not only showcase my accomplishments but m
 5. jQuery
 
 <br />
-Feel free to browse my website @: bengavrilov.com
+[Feel free to browse my website @:](https://www.bengavrilov.com/)
