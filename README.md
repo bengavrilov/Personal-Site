@@ -10,4 +10,7 @@ I've created this personal website to not only showcase my accomplishments but m
 5. jQuery
 
 <br />
+This includes my entire portfolio including my resume, my work experiences, side projects (I suggest checking these out), and my school calendar (courses I take).
+
+<br />
 Feel free to browse my website @: https://www.bengavrilov.com/
