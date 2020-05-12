@@ -48,6 +48,14 @@ document.querySelector('.pclose6').addEventListener('click', function () {
     document.querySelector('.pg6-modal').setAttribute("style", "display: none;");
 });
 
+document.getElementById('chat-id').addEventListener('click', function() {
+    document.querySelector('.pg7-modal').setAttribute("style", "display: flex;");
+});
+
+document.querySelector('.pclose7').addEventListener('click', function () {
+    document.querySelector('.pg7-modal').setAttribute("style", "display: none;");
+});
+
 // School Section
 
 document.getElementById('fyc').addEventListener('click', function() {
